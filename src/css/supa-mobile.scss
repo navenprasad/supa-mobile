@@ -4,7 +4,34 @@
 
   }
 
-  #message-input{
-    
+  .bootcards-summary-item{
+    background-color: white;
+    padding: 10px;
+
   }
+  #profile-pic{
+    margin-top: 30px;
+    margin-left: 30px;
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  #profile-bg{
+    background-image: url("/img/pattern_profile.png");
+    #profile-name{
+      margin-top: 10px;
+      margin-left: 40px;
+      margin-bottom: 0px;
+      color: white;
+    }
+    #profile-greet{
+      margin-left: 40px;
+      margin-top: 5px;
+      margin-bottom: 20px;
+      color: white;
+    }
+
+  }
+
 }
