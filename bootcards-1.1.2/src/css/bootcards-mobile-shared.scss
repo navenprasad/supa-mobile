@@ -1,6 +1,6 @@
 @import "bootcards.scss";
 
-html, 
+html,
 body {
 	height: 100%;
 }
@@ -24,9 +24,6 @@ small {
 }
 
 
-
-
-
 /* NAVBAR */
 
 .navbar-header {
@@ -41,7 +38,6 @@ small {
 .navbar-toggle {
 	display: none !important;
 }
-
 
 
 
@@ -69,13 +65,13 @@ body.bootcards-nofooter > .container > .row {
 	overflow-y: auto;
 	overflow-x: hidden;
 	-webkit-overflow-scrolling: touch;
-	height: 100%;	
+	height: 100%;
 }
 
 @media (min-width:768px) {
 	.container .bootcards-list {
 		border-right: 1px solid rgba(0,0,0,0.2);
-	}	
+	}
 }
 
 .container .bootcards-cards {
@@ -85,10 +81,10 @@ body.bootcards-nofooter > .container > .row {
 @media (min-width:768px) {
 	.bootcards-cards > div[class*='col-']:not(:first-child) {
 		padding-left:8px;
-	}	
+	}
 	.bootcards-cards > div[class*='col-']:not(:last-child) {
 		padding-right:8px;
-	}		
+	}
 }
 
 
@@ -106,7 +102,7 @@ body.bootcards-nofooter > .container > .row {
 }
 
 .navmenu li a {
-	color: #777;	
+	color: #777;
 }
 .navmenu li.active>a, .navmenu li.active>a:hover {
 	color: #555;

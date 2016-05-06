@@ -827,6 +827,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/bootcards-1.1.2\/src\/css\/bootcards-android.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bootcards-1.1.2\/src\/css\/bootcards-android.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/bootcards-1.1.2\/src\/css\/bootcards-android.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -858,6 +867,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/bootcards-1.1.2\/src\/css\/bootcards-ios.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bootcards-1.1.2\/src\/css\/bootcards-ios.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/bootcards-1.1.2\/src\/css\/bootcards-ios.scss": {
 		"createSourceMap": 0,
@@ -907,6 +925,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/bootcards-1.1.2\/src\/css\/chat-bubbles.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bootcards-1.1.2\/src\/css\/chat-bubbles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/bootcards-1.1.2\/src\/js\/bootcards.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -917,6 +944,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/chat.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/chat.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/dist\/css\/bootcards-android.css": {
 		"fileType": 16,
@@ -1052,7 +1088,7 @@
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
@@ -1768,6 +1804,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/src\/css\/chat-bubbles.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/css\/chat-bubbles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/src\/css\/supa-mobile.css": {
 		"fileType": 16,

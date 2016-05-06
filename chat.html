@@ -15,16 +15,17 @@
   <!-- You'll only need to load one of these (depending on the device you're using) in production -->
   <!-- <link href="//cdnjs.cloudflare.com/ajax/libs/bootcards/1.1.1/css/bootcards-desktop.min.css" rel="stylesheet">-->
   <link href="//cdnjs.cloudflare.com/ajax/libs/bootcards/1.1.1/css/bootcards-android.min.css" rel="stylesheet">
+  <link href="//cdnjs.cloudflare.com/ajax/libs/bootcards/1.1.1/css/" rel="stylesheet">
 
   <!-- SupaMobile CSS -->
   <link href="../src/css/supa-mobile.css" rel="stylesheet">
-
+  <link href="../src/css/chat-bubbles.css" rel="stylesheet">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
 
 </head>
 
-<body class="supa-mobile bootcards-nofooter">
+<body class="supa-mobile">
 
   <!-- fixed top navbar -->
   <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -46,7 +47,7 @@
         <i class="fa fa-bars"></i><span>Menu</span>
       </button>
 
-      <a class="navbar-brand" title="Bootcards Starter" href="/">Supahands</a>
+      <a class="navbar-brand" title="Bootcards Starter" href="/">Task Subject</a>
 
       <!--right aligned button-->
       <!-- <button type="button" class="btn btn-warning navbar-right hidden-sm">
@@ -66,7 +67,7 @@
         </a>
       </li>
       <li class="active">
-        <a href="#">
+        <a href="index.html">
           <i class="fa fa-fw fa-newspaper-o"></i>  Dashboard
         </a>
       </li>
@@ -107,127 +108,87 @@
 
   <div class="container bootcards-container push-right">
 
-    <!-- This is where you come in... -->
-    <!-- I've added some sample data below so you can get a feel for the required markup -->
-
-    <div class="row">
-
-      <!-- left list column -->
-      <div class="col-sm-5 bootcards-list" id="list" data-title="Tasks">
-        <div class="panel panel-default">
-          <div class="panel-body">
-            <div class="search-form">
-              <div class="row">
-                <div class="col-xs-8">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search Tasks">
-                    <i class="fa fa-search"></i>
-                  </div>
-                </div>
-                <div class="col-xs-4">
-                  <a class="btn btn-primary btn-block" data-toggle="modal" data-target="#myModal">
-                    <i class="fa fa-plus"></i>
-                    <span>New Task</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--panel body-->
-
-
-            <a class="list-group-item" href="chat.html">
-              <div class="row">
-                <div class="col-sm-4">
-                <tr>
-                  <td><h4 class="list-group-item-heading">Subject</h4></td>
-                  <td><p class="list-group-item-text">Description</p></td>
-                </tr>
-                  <td><p class="list-group-item-text">Date</p></td>
-                  <td><p class="list-group-item-text">Cost</p></td>
-                </div>
-              </div>
-            </a>
-            <a class="list-group-item" href="#">
-              <div class="row">
-                <div class="col-sm-4">
-                <tr>
-                  <td><h4 class="list-group-item-heading">Subject</h4></td>
-                  <td><p class="list-group-item-text">Description</p></td>
-                </tr>
-                  <td><p class="list-group-item-text">Date</p></td>
-                  <td><p class="list-group-item-text">Cost</p></td>
-                </div>
-              </div>
-            </a>
-            <a class="list-group-item" href="#">
-              <div class="row">
-                <div class="col-sm-4">
-                <tr>
-                  <td><h4 class="list-group-item-heading">Subject</h4></td>
-                  <td><p class="list-group-item-text">Description</p></td>
-                </tr>
-                  <td><p class="list-group-item-text">Date</p></td>
-                  <td><p class="list-group-item-text">Cost</p></td>
-                </div>
-              </div>
-            </a>
-            <a class="list-group-item" href="#">
-              <div class="row">
-                <div class="col-sm-4">
-                <tr>
-                  <td><h4 class="list-group-item-heading">Subject</h4></td>
-                  <td><p class="list-group-item-text">Description</p></td>
-                </tr>
-                  <td><p class="list-group-item-text">Date</p></td>
-                  <td><p class="list-group-item-text">Cost</p></td>
-                </div>
-              </div>
-            </a>
-            <a class="list-group-item" href="#">
-              <div class="row">
-                <div class="col-sm-4">
-                <tr>
-                  <td><h4 class="list-group-item-heading">Subject</h4></td>
-                  <td><p class="list-group-item-text">Description</p></td>
-                </tr>
-                  <td><p class="list-group-item-text">Date</p></td>
-                  <td><p class="list-group-item-text">Cost</p></td>
-                </div>
-              </div>
-            </a>
-            <a class="list-group-item" href="#">
-              <div class="row">
-                <div class="col-sm-4">
-                <tr>
-                  <td><h4 class="list-group-item-heading">Subject</h4></td>
-                  <td><p class="list-group-item-text">Description</p></td>
-                </tr>
-                  <td><p class="list-group-item-text">Date</p></td>
-                  <td><p class="list-group-item-text">Cost</p></td>
-                </div>
-              </div>
-            </a>
-
-
-
-
-
-          </div>
-
-          <!-- list of sample data -->
-
-
-        </div>
-        <!--panel-->
-
-
-        <!--end rich text card-->
-
+    <div class="talk-bubble-client round tri-right right-in">
+      <div class="talktext">
+        <p>Message from client</p>
+        <small>Date - Time</small>
+      </div>
+    </div>
+    <div class="talk-bubble-agent round tri-right left-in">
+      <div class="talktext">
+        <p>Message from Agent</p>
+        <small>Date - Time</small>
+      </div>
+    </div>
+    <div class="talk-bubble-client round tri-right right-in">
+      <div class="talktext">
+        <p>Message from client</p>
+        <small>Date - Time</small>
+      </div>
+    </div>
+    <div class="talk-bubble-agent round tri-right left-in">
+      <div class="talktext">
+        <p>Message from Agent</p>
+        <small>Date - Time</small>
+      </div>
+    </div>
+    <div class="talk-bubble-client round tri-right right-in">
+      <div class="talktext">
+        <p>Message from client</p>
+        <small>Date - Time</small>
+      </div>
+    </div>
+    <div class="talk-bubble-agent round tri-right left-in">
+      <div class="talktext">
+        <p>Message from Agent</p>
+        <small>Date - Time</small>
+      </div>
+    </div>
+    <div class="talk-bubble-client round tri-right right-in">
+      <div class="talktext">
+        <p>Message from client</p>
+        <small>Date - Time</small>
+      </div>
+    </div>
+    <div class="talk-bubble-agent round tri-right left-in">
+      <div class="talktext">
+        <p>Message from Agent</p>
+        <small>Date - Time</small>
+      </div>
+    </div>
   </div>
 
   </div>
   <!--footer-->
+<div class="row">
+  <div class="navbar navbar-default navbar-fixed-bottom">
+    <div class="panel panel-default">
+      <div class="search-form">
+        <div class="row">
+          <div class="col-xs-2">
+            <a class="btn btn-primary btn-block" data-toggle="modal" data-target="#myModal">
+              <i class="fa fa-paperclip"></i>
+            </a>
+          </div>
+          <div class="col-xs-8">
+            <div class="form-group">
+              <input type="text" class="form-control">
+              <i class="fa fa-search"></i>
+            </div>
+          </div>
+          <div class="col-xs-2">
+            <a class="btn btn-primary btn-block">
+              <i class="fa fa-reply"></i>
+            </a>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+        <!--pa
+
+
 
   <!--edit contact modal-->
   <div id="myModal" class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModal" aria-hidden="true">
